@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#change to python2 or python2.6 if it doesn't work
 
 import sys
 import hashlib
@@ -25,7 +26,7 @@ def do_year(year):
 
 
 if len(sys.argv) != 2:
-    print "speedtouchkey.py <ssid>"
+    print "speedycracker.py <SSID>"
     sys.exit(1)
 
 chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
