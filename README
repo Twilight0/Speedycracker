@@ -1,4 +1,32 @@
-Speedycracker is a small shell script
-for the purpose of recovering WPA
-passwords from Thomson/Speedtouch wifi
-modem/routers
+Speedycracker is a couple of two scripts, one shell and one python for the purpose of recovering WPA
+passwords from Thomson/Speedtouch wifi modem/routers.
+
+The python script can be run on itself without requiring the rainbow table, but its a bit slow
+and it cannot find all possible combinations
+
+The shell script uses the rainbow table, its very fast and it can find all possible combinations
+
+Both of them are released under the GPL v2 Licence.
+
+To use the scripts follow the instructions bellow.
+
+1) Make both scripts executables:
+
+chmod +x {speedycracker,speedycracker.py}
+
+2) Usage:
+
+2.a) Rainbow table script:
+
+
+./speedycracker
+
+[Enter now your 6-digit part of the SSID]
+
+2.b) Python script:
+
+./speedycracker.py <SSID>
+
+Example:
+
+./speedycracker.py 1547A0
