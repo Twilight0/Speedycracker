@@ -1,11 +1,11 @@
-Speedycracker is a duet of two scripts, one shell and one python for the
-purpose of recovering WPA passwords from Thomson/Speedtouch wifi modem/routers.
+Speedycracker is a script duet, one shell and one python for the purpose
+of recovering WPA passwords from Thomson/Speedtouch wifi modem/routers.
 
 The python script can be run on itself without requiring the rainbow table,
-but its a bit slow and it cannot find all possible combinations
+but its a bit slow and it cannot find all possible combinations.
 
-The shell script uses the rainbow table, its very fast and it can find
-all possible combinations.
+The shell script uses the rainbow table, its very fast even on old
+computers and it can find all possible combinations.
 
 Both of them are released under the GPL v2 Licence.
 
