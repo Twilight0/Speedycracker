@@ -22,7 +22,7 @@ def do_year(year):
         for xxx in product(hexchars, repeat=3):
             sha = hashlib.sha1(serial_w + "".join(xxx)).hexdigest()
             if sha.endswith(ssid):
-                print "  Likely key: %s (serial %s). Year 20%02d" % (sha[:10], "CP%02d%02d??%s" % (year, week, unhexlify("".join(xxx))), year)
+                print "  Key found: %s (serial %s). Year 20%02d" % (sha[:10], "CP%02d%02d??%s" % (year, week, unhexlify("".join(xxx))), year)
 
 
 if len(sys.argv) != 2:
