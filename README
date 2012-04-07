@@ -11,18 +11,19 @@ Both of them are released under the GPL v2 Licence.
 
 To use the scripts follow the instructions bellow.
 
+
 1) Make both scripts executables:
 
 chmod +x {speedycracker,speedycracker.py}
+
 
 2) Usage:
 
 2.a) Rainbow table script:
 
-
 ./speedycracker
 
-[Enter now your 6-digit part of the SSID]
+and type your 6-digit part of the SSID]
 
 2.b) Python script:
 
