@@ -9,7 +9,8 @@ computers and it can find all possible combinations.
 
 Both of them are released under the GPL v2 Licence.
 
-Note: It is compatible with Backtrack 5+ and other modern distributions.
+Note: It is compatible with Backtrack 5+ and other modern Linux
+distributions.
 
 To use the scripts follow the instructions bellow.
 
@@ -25,7 +26,7 @@ chmod +x {speedycracker,speedycracker.py}
 
 ./speedycracker
 
-and type your 6-digit part of the SSID]
+and type your 6-digit part of the SSID
 
 2.b) Python script:
 
