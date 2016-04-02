@@ -9,16 +9,11 @@ computers and it can find all possible combinations.
 
 Both of them are released under the GPL v2 Licence.
 
-Note: It is compatible with Backtrack 5+ and other modern Linux
-distributions.
-
 To use the scripts follow the instructions bellow.
-
 
 1) Make both scripts executables:
 
 chmod +x {speedycracker,speedycracker.py}
-
 
 2) Usage:
 
