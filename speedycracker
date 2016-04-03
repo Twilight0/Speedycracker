@@ -2,5 +2,4 @@
 
 echo "Please enter the 6-digit part of the SSID:"
 read ssid
-#cat table${ssid:0:1}/${ssid:1:1}/${ssid:2:1}/index.dat | grep {ssid:0:1}${ssid:1:1}${ssid:2:1}${ssid:3:1}${ssid:4:1}${ssid:5:1}
 cat table/${ssid:0:1}/${ssid:1:1}/${ssid:2:1}/index.dat | grep ${ssid:0:1}${ssid:1:1}${ssid:2:1}${ssid:3:1}${ssid:4:1}${ssid:5:1}
