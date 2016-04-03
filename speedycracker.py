@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-#change to python2 or python2.6 if it doesn't work
-
 import sys
 import hashlib
 from binascii import hexlify, unhexlify
